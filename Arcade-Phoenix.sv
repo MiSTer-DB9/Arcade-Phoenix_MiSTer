@@ -119,7 +119,6 @@ module emu
 	output	[1:0] USER_MODE,
 	input	[7:0] USER_IN,
 	output	[7:0] USER_OUT
-	output  [6:0] USER_OUT,
 
 	input         OSD_STATUS
 );
