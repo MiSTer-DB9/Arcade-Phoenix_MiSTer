@@ -3,4 +3,4 @@ LABEL maintainer="theypsilon@gmail.com"
 WORKDIR /project
 ADD . /project
 RUN /opt/intelFPGA_lite/quartus/bin/quartus_sh --flow compile Arcade-Phoenix.qpf
-CMD cat /project/output_files/Arcade-Phoenix.rbf
+CMD ["cat", "/project/output_files/Arcade-Phoenix.rbf"]
