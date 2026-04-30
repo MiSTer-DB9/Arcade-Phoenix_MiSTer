@@ -260,7 +260,6 @@ localparam CONF_STR = {
 	"O89,Lives,3,4,5,6;",
 	"ODE,Bonus Life,3k/30k,4k/40k,5k/50k,6k/60k;",
 	"OC,Cabinet,Upright,Cocktail;",
-	"OUV,UserIO Joystick,Off,DB9MD,DB15 ;",
 	"-;",
 	"H1OR,Autosave Hiscores,Off,On;",
 	"P1,Pause options;",
